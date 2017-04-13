@@ -5,8 +5,12 @@ public class Runner {
     public static void main (String[] args) {
         System.out.println("*");
 
-        for (int x = 0; x < 10; x = x + 1) {
-            System.out.println("x is now" + x);
+
+        int n;
+        for (n = 0; n < 8; n = n + 1) {
+            System.out.print("*");
         }
+        
+
     }
 }
