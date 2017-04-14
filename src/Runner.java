@@ -91,6 +91,7 @@ public class Runner {
             System.out.println("");
         }
         FizzBuzz();
+        generate(1);
         generate(30);
     }
 
@@ -117,5 +118,7 @@ public class Runner {
                 n = n/i;
             }
         }
+        //REFACTOR: use of array would be more eloquent
+        //REFACTOR: Allow to be able to call method from command line with different values
     }
 }
