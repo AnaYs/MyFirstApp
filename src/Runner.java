@@ -91,6 +91,7 @@ public class Runner {
             System.out.println("");
         }
         FizzBuzz();
+        generate(30);
     }
 
     public static void FizzBuzz() {
@@ -105,6 +106,15 @@ public class Runner {
                 System.out.println("Buzz");
             } else {
                 System.out.println(c);
+            }
+        }
+    }
+
+    public static void generate(int n){
+        for(int i = 2; i <= n; i++) {
+            if(n%i == 0) {
+                System.out.println(i);
+                n = n/i;
             }
         }
     }
