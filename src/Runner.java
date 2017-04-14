@@ -90,6 +90,22 @@ public class Runner {
             }
             System.out.println("");
         }
+        FizzBuzz();
+    }
 
+    public static void FizzBuzz() {
+        int n = 100;
+        int c = 1;
+        for (c = 1; c <= n; c++) {
+            if ((c % 3 == 0) & (c % 5 == 0)) {
+                System.out.println("FizzBuzz");
+            } else if (c % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (c % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(c);
+            }
+        }
     }
 }
